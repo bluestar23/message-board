@@ -1,5 +1,6 @@
 class MessagesController < ApplicationController
   def index
+<<<<<<< HEAD
     @message = Message.new
     @messages = Message.all
   end
@@ -16,3 +17,7 @@ class MessagesController < ApplicationController
   end
   ## ここまで
 end
+=======
+  end
+end
+>>>>>>> origin/master
