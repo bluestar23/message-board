@@ -1,4 +1,5 @@
 class MessagesController < ApplicationController
+<<<<<<< HEAD
   before_action :set_message, only: [:edit, :update, :destroy]
   
   def index
@@ -47,4 +48,8 @@ class MessagesController < ApplicationController
 def set_message
    @message = Message.find(params[:id])
 end
+=======
+  def index
+  end
+>>>>>>> 77dba5e4877dbdbbc7ba3a28efa58f1cf6407983
 end

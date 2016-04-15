@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root 'messages#index'
+<<<<<<< HEAD
  resources :messages , except: [:index, :new]
+=======
+>>>>>>> 77dba5e4877dbdbbc7ba3a28efa58f1cf6407983
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
