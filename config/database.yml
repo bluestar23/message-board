@@ -21,12 +21,7 @@ test:
   database: db/test.sqlite3
 
 production:
-<<<<<<< HEAD
- <<: *default
+  <<: *default
   adapter: postgresql
   encoding: unicode
   pool: 5
-=======
-  <<: *default
-  database: db/production.sqlite3
->>>>>>> 77dba5e4877dbdbbc7ba3a28efa58f1cf6407983
