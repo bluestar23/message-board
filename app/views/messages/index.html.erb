@@ -8,10 +8,11 @@
    <% @messages.each do |message| %>
     <span class="label label-info"><%= message.name %></span>
     <%= message.body %>
+    (<%= link_to "edit" , edit_message_path(message) %>
+    <%= link_to "destroy" , message: :delete, date: { confirm: '削除してもよろしいですか？'}%>)
    <br>
    <% end %>
  </div>
-
 </div>
 
 <% #下記は部分テンプレートの読み込み %>
